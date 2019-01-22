@@ -1,0 +1,698 @@
+body {
+  padding: 0;
+}
+  div.menu{
+    width: 100%;
+    background-color: #a30023;
+  }
+
+  div.menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: block;
+  }
+  div.menu ul li{
+    float: right;
+  }
+  div.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    margin: 0;
+    padding: 14px 18px;
+    text-align:center;
+    letter-spacing: 2px;
+  }
+  div.menu ul li  a:hover{
+    border-bottom: 2px solid #fff;
+  }
+  div.menu img{
+    width: 170px;
+    height: auto;
+  }
+
+  div.header{
+    width: 100%;
+    height: 642px;
+    background: url("smktelkommalang.jpg") no-repeat center;
+    background-size: cover;
+    float: left;
+  }
+
+  div.gelap{
+    width: 100%;
+    height: 642px;
+    margin: 0;
+    padding: 0;
+    background: #000;
+    opacity: 0.85;
+  }
+
+  div.header h1{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    top: 160px; /* untuk mengatur jarak dari atas */
+    left: 390px; /*untuk mengatur jarak dari kiri */
+    opacity: 1;
+  }
+
+  div.header h1 label{
+    font-size: 30px;
+  }
+
+  div.header h1 span{
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    font-size: 15px;
+  }
+
+  div.header h1 img{
+    width: 100px;
+    height: auto;
+  }
+
+  div.about{
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+  }
+
+  div.about .left{
+    width: 50%;
+    height: 100%;
+    text-align: right;
+    float: left;
+  }
+
+  div.about .left h1{
+    text-align: right;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 15;
+    text-transform: uppercase;
+    border-right: 5px solid red;
+    padding-right: 30px;
+    margin-top: 95px;
+  }
+
+  div.about .left h1 span{
+    text-align: right;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 15;
+    text-transform: uppercase;
+    margin-top: 95px;
+    color: red;
+  }
+
+  div.about .left p{
+    text-align: right;
+    font-size: 20px;
+    color: grey;
+  }
+
+  div.about .right{
+    width: 50%;
+    height: 400px;
+    float: right;
+  }
+
+  div.about .right img{
+    width: 450px;
+    height: auto;
+    border: 10px solid #CD5C5C;
+    border-radius: 20px;
+    margin-top: 95px;
+    margin-left: 88px;
+  }
+
+  div.layanan{
+    width: 100%;
+    height: 400px;
+    float:left;
+    margin-top: 90px;
+  }
+
+  div.layanan div.box{
+    width: 20%;
+    height: 350px;
+    margin: 20px;
+    float: left;
+  }
+
+  div.layanan div.box div.bunder{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: red;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  div.bunder span{
+    margin : auto;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  div.box .deskripsi{
+    color: grey;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  div.penghargaan{
+    width: 100%;
+    height: 500px;
+    float: left;
+    background: url("gedung.jpg") no-repeat center;
+    background-size: cover;
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  div.gelap{
+    width: 100%;
+    height: 100%;
+    float: left;
+    background: linear-gradient(to right, #000, #000, #000, transparent);
+  }
+
+  div.penghargaan div.left{
+    width: 50%;
+    height: auto;
+    margin-top: 200px;
+    position: absolute;
+    text-align: right;
+    color: #fff;
+    border-right: 5px solid red;
+    padding-right: 20px;
+    float: left;
+  }
+
+  div.penghargaan .left h1{
+    margin: 2px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+  }
+
+  div.penghargaan .left h1 span{
+    margin: 2px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: red;
+}
+  div.penghargaan .left h2{
+    margin: 2px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: grey;
+  }
+
+  div.penghargaan .left h3{
+    margin: 2px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 10;
+  }
+  div.penghargaan .right{
+    width: 130px;
+    height: auto;
+    float: right;
+    position: absolute;
+    margin-top: 185px;
+    right: 485px;
+  }
+  div.penghargaan .right img{
+    width: 132px;
+    height: auto;
+  }
+
+  div.program{
+    width: 100%;
+    height: 400px;
+    float:left;
+    margin-top: 90px;
+  }
+
+  div.program div.studi{
+    width: 20%;
+    height: 350px;
+    margin: 20px;
+    float: left;
+  }
+
+  div.program div.studi div.bunder1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: red;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  div.bunder1 span{
+    margin : auto;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  div.studi .deskripsi{
+    color: grey;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  div.penghargaan .right{
+    width: 130px;
+    height: auto;
+    float: right;
+    margin-top: 200px
+    right: 380px;
+  }
+
+  div.penghargaan .right img{
+    width: 130px;
+    height: auto;
+  }
+
+  div.program{
+    width: 100%;
+    height: 400px;
+    float:left;
+    margin-top: 75px;
+    text-align: center;
+  }
+
+  div.program div.studi{
+    width: 98%;
+    height: 350px;
+    margin: 15px;
+    float: center;
+  }
+
+  div.program div.studi div.pstudi{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: red;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  div.pstudi span{
+    margin : auto;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  div.program div.studi .prstudi h1{
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 40;
+  }
+
+  div.program div.studi .prstudi h1 span{
+    text-align: right;
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: 15;
+    text-transform: uppercase;
+    margin-top: 95px;
+    color: red;
+  }
+
+  div.studi .deskripsi p{
+    color: grey;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: 25px;
+  }
+
+  div.jurusan{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(white 250px, red 250px);
+    float: left;
+    text-align: center;
+  }
+
+  div.prodi{
+    width: 50%;
+    float: left;
+  }
+
+  div.prestasi{
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+  }
+
+  div.prestasi .left{
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    float: left;
+  }
+
+  div.prestasi .left h1{
+    text-align: left;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 15;
+    text-transform: uppercase;
+    border-left: 5px solid red;
+    padding-left: 35px;
+    margin-top: 95px;
+    margin-left: 110px;
+  }
+
+  div.prestasi .left p{
+    text-align: left;
+    font-size: 20px;
+    color: #C0C0C0;
+    margin-left: 110px;
+  }
+
+  div.prestasi .right{
+    width: 50%;
+    height: 400px;
+    float: right;
+  }
+
+  div.prestasi .right img{
+    width: 550px;
+    height: auto;
+    border: 8px solid #6495ED;
+    border-radius: 15px;
+    margin-top: 95px;
+    margin-left: 1px;
+  }
+
+  div.info{
+    width: 100%;
+    height: 400px;
+    float:left;
+    margin-top: 90px;
+  }
+
+  div.info div.kotak{
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+    float: left;
+  }
+
+  div.info div.kotak div.bunder{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: red;
+    display: flex;
+    text-align: center;
+    margin-left: 605px;
+  }
+
+  div.info div.kotak div.bunder span{
+    margin : auto;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  div.info div.kotak h1{
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 40;
+    text-align: center;
+  }
+
+  div.info div.kotak h1 span{
+    text-align: center;
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: 15;
+    text-transform: uppercase;
+    margin-top: 95px;
+    color: red;
+  }
+
+  div.kotak .deskripsi p{
+    color: grey;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  div.update{
+    width: 100%;
+    height: 250px;
+    float: left;
+    background: red;
+    position: relative;
+  }
+
+  div.update .centang{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: red;
+    display: flex;
+    position: absolute;
+    left: 55px;
+    top: -50px;
+  }
+
+  div.update .centang span{
+    color: #fff;
+    margin: auto;
+    font-size: 40px;
+  }
+
+  div.update .left{
+    width: 50%;
+    height: auto;
+    float: left;
+  }
+
+  div.update .left h1{
+    margin-top: 60px;
+    margin-left: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 40px;
+  }
+
+  div.update .left p{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 40px;
+  }
+
+  div.update .right{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-top: 60px;
+  }
+
+  div.update .right .bunder{
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 20px;
+    display: flex;
+    float: left;
+  }
+
+  div.update .right .bunder span{
+    font-size: 50px;
+    color: red;
+    margin: auto;
+  }
+
+  div.agenda{
+    width: 100%;
+    height: 400px;
+    float:left;
+    margin-top: 90px;
+  }
+
+  div.agenda div.box{
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+    float: left;
+  }
+
+  div.agenda div.box div.bunder{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: red;
+    display: flex;
+    text-align: center;
+    margin-left: 605px;
+  }
+
+  div.agenda div.box div.bunder span{
+    margin : auto;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  div.agenda div.box h1{
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 40;
+    text-align: center;
+  }
+
+  div.agenda div.box h1 span{
+    text-align: center;
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: 15;
+    text-transform: uppercase;
+    margin-top: 95px;
+    color: red;
+  }
+
+  div.box .deskripsi p{
+    color: grey;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  div.partner{
+  width: 100%;
+  height: auto;
+  float: left;
+  margin-top: 50px;
+}
+
+div.partner .bunder{
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 50%;
+  display: flex;
+  margin: 0 auto;
+}
+
+div.partner .bunder span{
+  margin: auto;
+  font-size: 40px;
+  color: #fff;
+}
+
+div.partner h1{
+  font-size: 40px;
+  color: #000;
+  font-family: sans-serif;
+  margin: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+div.partner h1 span{
+  font-size: 40px;
+  color: red;
+  font-family: sans-serif;
+  margin: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+div.partner p{
+  color: grey;
+  font-size: 20px;
+  text-align: center;
+}
+
+div.partner img{
+  width: 129px;
+  height: auto;
+  margin-top: 40px;
+  margin-left: 150px;
+  margin-bottom: 60px;
+}
+
+  div.foo{
+  width: 100%;
+  height: auto;
+  float: left;
+  background: #111;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+div.foo .col{
+  width: 25%;
+  height: auto;
+  color: #fff;
+  padding: 10px;
+  float: left;
+  box-sizing: border-box;
+}
+
+div.foo .col .fab{
+  margin: 5px;
+  font-size: 20px;
+}
+
+div.foo .col img{
+  width: 180px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+div.cr{
+  width: 100%;
+  height: auto;
+  float: left;
+  background: #000;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+div.cr .copy{
+  color: grey;
+  text-align:left;
+  margin-left: 20px;
+}
+
+div.cr .make{
+  color: grey;
+  text-align: right;
+  margin-right: 20px;
+}
